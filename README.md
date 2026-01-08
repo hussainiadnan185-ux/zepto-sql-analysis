@@ -80,8 +80,8 @@ This project produces SQL query outputs showing:
    ```bash
    git clone https://github.com/hussainiadnan185-ux/zepto-sql-analysis.git
 2. Run zepto.sql in MySQL to create the table.
-3.Import zepto.csv into the zepto table.
-4.Execute the remaining queries in zepto.sql to view all analysis results.
+3. Import zepto.csv into the zepto table.
+4. Execute the remaining queries in zepto.sql to view all analysis results.
 
 ---
 
@@ -93,23 +93,24 @@ Using SQL, this project identifies pricing patterns, discount strategies, and in
 
 ## ⚠ **Data Limitations & Assumptions**
 
-1.The dataset contains only product catalog data. There are no orders or customer transactions, so revenue values are estimated using price × available quantity.
-2.Discounts are assumed to apply uniformly to all available units.
-3.Stock status reflects a snapshot in time and may not represent long-term availability.
-4.Customer behavior and demand trends cannot be analyzed with this dataset.
+1. The dataset contains only product catalog data. There are no orders or customer transactions, so revenue values are estimated using price × available quantity.
+2. Discounts are assumed to apply uniformly to all available units.
+3. Stock status reflects a snapshot in time and may not represent long-term availability.
+4. Customer behavior and demand trends cannot be analyzed with this dataset.
 
 ---
 
 ## 🚀 **Future Work**
 
-1.Add sales or order-level data to analyze real revenue and demand trends.
-2.Build a Power BI dashboard for visualization.
-3.Perform deeper category and supplier-level analysis.
+1. Add sales or order-level data to analyze real revenue and demand trends.
+2. Build a Power BI dashboard for visualization.
+3. Perform deeper category and supplier-level analysis.
 
 ---
 
 **Syed Murtuza Hussaini**
 Aspiring Data Analyst
-Email:hussainiadnan185@gmail.com
+Email: hussainiadnan185@gmail.com
 GitHub: https://github.com/hussainiadnan185-ux
+
 
