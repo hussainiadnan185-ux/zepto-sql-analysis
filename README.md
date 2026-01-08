@@ -5,18 +5,18 @@
 ---
 
 ## 📑 Table of Contents
-- [Overview](#overview)
-- [Problem Statement](#problem-statement)
-- [Dataset](#dataset)
-- [Tools and Technologies](#tools-and-technologies)
-- [Methods](#methods)
-- [Key Insights](#key-insights)
-- [Output](#output)
-- [How to Run This Project](#how-to-run-this-project)
-- [Results and Conclusion](#results-and-conclusion)
-- [Data Limitations & Assumptions](#data-limitations--assumptions)
-- [Future Work](#future-work)
-- [Author and Contact](#author-and-contact)
+- Overview  
+- Problem Statement  
+- Dataset  
+- Tools and Technologies  
+- Methods  
+- Key Insights  
+- Output  
+- How to Run This Project  
+- Results and Conclusion  
+- Data Limitations & Assumptions  
+- Future Work  
+- Author and Contact  
 
 ---
 
@@ -114,6 +114,7 @@ Using SQL, this project identifies pricing patterns, discount strategies, and in
 Aspiring Data Analyst  
 Email: hussainiadnan185@gmail.com  
 GitHub: https://github.com/hussainiadnan185-ux
+
 
 
 
