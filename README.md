@@ -4,7 +4,7 @@
 
 ---
 
-## 📑 **Table of Contents**
+## 📑 Table of Contents
 - [Overview](#overview)
 - [Problem Statement](#problem-statement)
 - [Dataset](#dataset)
@@ -20,7 +20,7 @@
 
 ---
 
-## 📌 **Overview**  
+## Overview 📌
 This project uses **MySQL** to analyze Zepto’s product inventory data and extract business-relevant insights related to pricing, discounts, stock availability, and potential revenue. It simulates how a data analyst works with real e-commerce catalog data.
 
 ---
@@ -114,6 +114,7 @@ Using SQL, this project identifies pricing patterns, discount strategies, and in
 Aspiring Data Analyst  
 Email: hussainiadnan185@gmail.com  
 GitHub: https://github.com/hussainiadnan185-ux
+
 
 
 
