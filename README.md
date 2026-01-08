@@ -110,10 +110,12 @@ Using SQL, this project identifies pricing patterns, discount strategies, and in
 
 ## **Author and Contact**
 
-**Syed Murtuza Hussaini**
-Aspiring Data Analyst
-Email: hussainiadnan185@gmail.com
+**Syed Murtuza Hussaini**  
+Aspiring Data Analyst  
+Email: hussainiadnan185@gmail.com  
 GitHub: https://github.com/hussainiadnan185-ux
+
+
 
 
 
