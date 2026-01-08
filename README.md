@@ -83,9 +83,13 @@ This project produces SQL query outputs showing:
 3.Import zepto.csv into the zepto table.
 4.Execute the remaining queries in zepto.sql to view all analysis results.
 
+---
+
 ## 📌 **Results and Conclusion**
 
 Using SQL, this project identifies pricing patterns, discount strategies, and inventory gaps that can help quick-commerce companies make better product and pricing decisions.
+
+---
 
 ## ⚠ **Data Limitations & Assumptions**
 
@@ -94,14 +98,18 @@ Using SQL, this project identifies pricing patterns, discount strategies, and in
 3.Stock status reflects a snapshot in time and may not represent long-term availability.
 4.Customer behavior and demand trends cannot be analyzed with this dataset.
 
+---
+
 ## 🚀 **Future Work**
 
 1.Add sales or order-level data to analyze real revenue and demand trends.
 2.Build a Power BI dashboard for visualization.
 3.Perform deeper category and supplier-level analysis.
 
+---
 
 **Syed Murtuza Hussaini**
 Aspiring Data Analyst
 Email:hussainiadnan185@gmail.com
 GitHub: https://github.com/hussainiadnan185-ux
+
