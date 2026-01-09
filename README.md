@@ -66,59 +66,60 @@ A `sku_id` column was added before loading the data into MySQL.
 ---
 
 ## 📊 **Business Insights**
-### 1. Heavy discounting is used to drive volume  
-![Q1](images/q1_discount.png)
+### 1. Top best-value products by discount  
+![Q1](images/q1_best_value_discount.png)
 
-Low-cost items like wafers, pasta, and masala are discounted by ~50%, showing Zepto uses them to attract customers and increase order size.
-
----
-
-### 2. Important high-value products are out of stock  
-![Q2](images/q2_outofstock.png)
-
-Products like ghee, diapers, atta, and spices are missing despite high prices, causing loss of high-margin sales.
+Low-priced items such as wafers, pasta, and masala receive **~50% discounts**, showing Zepto uses them as **traffic drivers and basket builders**.
 
 ---
 
-### 3. Packaged goods generate most revenue  
-![Q3](images/q3_revenue.png)
+### 2. High-MRP products that are out of stock  
+![Q2](images/q2_high_mrp_outofstock.png)
 
-Cooking Essentials and Munchies generate the most revenue, while fruits and meat contribute very little.
-
----
-
-### 4. Expensive products are rarely discounted  
-![Q4](images/q4_expensive.png)
-
-Oils, baby products, and pet food have very low discounts, showing Zepto protects profit margins on premium items.
+Items like **ghee, diapers, atta, and spices** are unavailable despite high prices, meaning **lost revenue on high-margin essentials**.
 
 ---
 
-### 5. Fresh food needs more discounting  
-![Q5](images/q5_discounts.png)
+### 3. Revenue by category  
+![Q3](images/q3_revenue_by_category.png)
 
-Fruits, vegetables, and meat have the highest average discounts because they spoil fast and need price cuts to sell.
-
----
-
-### 6. Bigger packs give better value  
-![Q6](images/q6_value.png)
-
-Staples like onions, potatoes, and salt are cheapest per gram when bought in larger quantities.
+**Cooking Essentials and Munchies** generate the highest revenue, while **fresh food contributes very little**, proving Zepto earns more from **packaged goods**.
 
 ---
 
-### 7. Zepto optimizes for light-weight items  
-![Q7](images/q7_weights.png)
+### 4. Expensive products with low discounts  
+![Q4](images/q4_expensive_low_discount.png)
 
-Most products are small and light, helping reduce delivery cost and enable fast delivery.
+Premium items such as **oils, baby products, pet food, and cosmetics** receive very low discounts, showing **strong pricing power and margin protection**.
 
 ---
 
-### 8. Inventory is dominated by packaged goods  
-![Q8](images/q8_inventory.png)
+### 5. Categories with highest average discount  
+![Q5](images/q5_top5_avg_discount.png)
 
-Most warehouse space is used by snacks, oils, and packaged foods rather than fresh groceries.
+**Fruits, vegetables, and meat** get the highest discounts because they are **perishable and harder to sell**, requiring price cuts to move inventory.
+
+---
+
+### 6. Best value products (price per gram)  
+![Q6](images/q6_price_per_gram.png)
+
+Staples like **onions, potatoes, and salt** are cheapest per gram in **larger packs**, encouraging customers to buy in bulk.
+
+---
+
+### 7. Product weight grouping  
+![Q7](images/q7_weight_groups.png)
+
+Most products fall into the **low-weight category**, helping Zepto keep **delivery fast and logistics cheap**.
+
+---
+
+### 8. Total inventory weight by category  
+![Q8](images/q8_inventory_weight_category.png)
+
+Most warehouse space is used by **snacks, oils, and packaged food**, not fresh groceries — Zepto operates mainly as a **packaged-goods platform**.
+
 
 ---
 
@@ -159,4 +160,5 @@ Aspiring Data Analyst
 Email: hussainiadnan185@gmail.com
 
 GitHub: https://github.com/hussainiadnan185-ux
+
 
