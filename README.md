@@ -4,14 +4,13 @@
 
 ---
 
-## 📑 Table of Contents
+## 📑 **Table of Contents**
 - Overview  
 - Problem Statement  
 - Dataset  
 - Tools and Technologies  
 - Methods  
-- Key Insights  
-- Output  
+- Business Insights  
 - How to Run This Project  
 - Results and Conclusion  
 - Data Limitations & Assumptions  
@@ -20,104 +19,143 @@
 
 ---
 
-## Overview 📌
-This project uses **MySQL** to analyze Zepto’s product inventory data and extract business-relevant insights related to pricing, discounts, stock availability, and potential revenue. It simulates how a data analyst works with real e-commerce catalog data.
+## 📌 **Overview**
+This project uses **MySQL** to analyze Zepto’s product inventory and extract business-relevant insights about **pricing, discounts, stock availability, and category performance**.
+
+It simulates how a data analyst evaluates an e-commerce catalog to support pricing and inventory decisions.
 
 ---
 
-## 🎯 **Problem Statement**  
-Quick-commerce platforms like Zepto need to know:
-- Which products offer the best value to customers  
-- Which categories contribute the most to revenue  
-- Which high-value products are out of stock  
+## 🎯 **Problem Statement**
+Quick-commerce companies like Zepto need to know:
+- Which products give customers the best value  
+- Which categories drive most revenue  
+- Which important products are out of stock  
 
 This project answers these questions using SQL.
 
 ---
 
-## 📊 **Dataset**  
-The dataset contains Zepto’s product listings sourced from Kaggle.  
-Each row represents one product SKU with attributes such as category, price, discount, weight, and stock status.
+## 📊 **Dataset**
+The dataset contains Zepto’s product catalog from Kaggle.  
+Each row represents a product SKU with:
+- Category  
+- MRP  
+- Discount  
+- Weight  
+- Stock availability  
 
-A `sku_id` column was added to uniquely identify each product before importing the data into MySQL.
-
----
-
-## 🛠 **Tools and Technologies**  
-- **MySQL**  
-- **Excel** (for adding SKU ID)  
-- **CSV**  
-- **GitHub**  
+A `sku_id` column was added before loading the data into MySQL.
 
 ---
 
-## 🔍 **Methods**  
-1. Imported the product dataset into MySQL.  
-2. Cleaned the data by removing invalid prices and converting prices from paise to rupees.  
-3. Performed data exploration to understand categories, stock levels, and duplicate products.  
-4. Wrote SQL queries to analyze discounts, revenue by category, pricing efficiency, and inventory distribution.
+## 🛠 **Tools and Technologies**
+- MySQL  
+- Excel (for SKU creation)  
+- CSV  
+- GitHub  
 
 ---
 
-## 💡 **Key Insights**  
-- Some high-priced products are frequently out of stock, indicating demand-supply gaps.  
-- Certain categories generate high revenue but offer lower discounts, showing premium positioning.  
-- Weight-based price analysis highlights products that give better value per gram.
+## 🔍 **Methods**
+1. Imported the dataset into MySQL.  
+2. Cleaned prices and converted values to rupees.  
+3. Explored categories, stock levels, and pricing.  
+4. Wrote SQL queries to analyze discounts, revenue, value-for-money, and inventory distribution.
 
 ---
 
-## 📈 **Output**  
-This project produces SQL query outputs showing:
-- Top discounted products  
-- Revenue by category  
-- Price-per-gram comparisons  
-- Inventory distribution by weight  
+## 📊 **Business Insights**
+### 1. Heavy discounting is used to drive volume  
+![Q1](images/q1_discount.png)
+
+Low-cost items like wafers, pasta, and masala are discounted by ~50%, showing Zepto uses them to attract customers and increase order size.
 
 ---
 
-## ▶ **How to Run This Project**  
+### 2. Important high-value products are out of stock  
+![Q2](images/q2_outofstock.png)
+
+Products like ghee, diapers, atta, and spices are missing despite high prices, causing loss of high-margin sales.
+
+---
+
+### 3. Packaged goods generate most revenue  
+![Q3](images/q3_revenue.png)
+
+Cooking Essentials and Munchies generate the most revenue, while fruits and meat contribute very little.
+
+---
+
+### 4. Expensive products are rarely discounted  
+![Q4](images/q4_expensive.png)
+
+Oils, baby products, and pet food have very low discounts, showing Zepto protects profit margins on premium items.
+
+---
+
+### 5. Fresh food needs more discounting  
+![Q5](images/q5_discounts.png)
+
+Fruits, vegetables, and meat have the highest average discounts because they spoil fast and need price cuts to sell.
+
+---
+
+### 6. Bigger packs give better value  
+![Q6](images/q6_value.png)
+
+Staples like onions, potatoes, and salt are cheapest per gram when bought in larger quantities.
+
+---
+
+### 7. Zepto optimizes for light-weight items  
+![Q7](images/q7_weights.png)
+
+Most products are small and light, helping reduce delivery cost and enable fast delivery.
+
+---
+
+### 8. Inventory is dominated by packaged goods  
+![Q8](images/q8_inventory.png)
+
+Most warehouse space is used by snacks, oils, and packaged foods rather than fresh groceries.
+
+---
+
+## ▶ **How to Run This Project**
 1. Clone this repository:
    ```bash
    git clone https://github.com/hussainiadnan185-ux/zepto-sql-analysis.git
 2. Run zepto.sql in MySQL to create the table.
-3. Import zepto.csv into the zepto table.
-4. Execute the remaining queries in zepto.sql to view all analysis results.
-
+3. Import zepto.csv into the table.
+4. Execute the remaining queries in zepto.sql.
+   
 ---
 
 ## 📌 **Results and Conclusion**
-
-Using SQL, this project identifies pricing patterns, discount strategies, and inventory gaps that can help quick-commerce companies make better product and pricing decisions.
+This project shows how Zepto uses discounts to drive volume, protects margins on premium products, and earns most of its revenue from packaged goods.
 
 ---
 
 ## ⚠ **Data Limitations & Assumptions**
-
-1. The dataset contains only product catalog data. There are no orders or customer transactions, so revenue values are estimated using price × available quantity.
-2. Discounts are assumed to apply uniformly to all available units.
-3. Stock status reflects a snapshot in time and may not represent long-term availability.
-4. Customer behavior and demand trends cannot be analyzed with this dataset.
+1. Only catalog data is available, not real sales.
+2. Revenue is estimated from price and stock.
+3. Discounts are assumed to apply equally to all units.
+4. Stock reflects only one point in time.
 
 ---
 
-## 🚀 **Future Work**
-
-1. Add sales or order-level data to analyze real revenue and demand trends.
-2. Build a Power BI dashboard for visualization.
-3. Perform deeper category and supplier-level analysis.
+##🚀 **Future Work**
+1. Add real order and sales data.
+2. Build a Power BI dashboard.
+3. Perform supplier and margin analysis.
 
 ---
 
 ## **Author and Contact**
 
-**Syed Murtuza Hussaini**  
-Aspiring Data Analyst  
-Email: hussainiadnan185@gmail.com  
+Syed Murtuza Hussaini
+Aspiring Data Analyst
+Email: hussainiadnan185@gmail.com
+
 GitHub: https://github.com/hussainiadnan185-ux
-
-
-
-
-
-
-
