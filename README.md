@@ -105,8 +105,12 @@ Open the `images/` folder to view the output tables for each query.
 3. Import zepto.csv into the table.
 4. Execute the remaining queries in zepto.sql to view all analysis results.
 
+---   
+
 ## 📌 **Results and Conclusion**
 This project shows how Zepto uses discounts to drive volume, protects margins on premium products, and earns most of its revenue from packaged goods while using fresh groceries mainly to complete the shopping experience.
+
+---
 
 ## ⚠ **Data Limitations & Assumptions**
 1. The dataset contains only catalog data, not actual customer orders.
@@ -114,15 +118,20 @@ This project shows how Zepto uses discounts to drive volume, protects margins on
 3. Discounts are assumed to apply uniformly to all units.
 4. Stock reflects only a single snapshot in time.
 
+---
+
 ## 🚀 **Future Work**
 1. Add order-level sales data.
 2. Build a Power BI or Tableau dashboard.
 3. Perform supplier-level and margin analysis.
 
-## **Author and Contact**
+---
 
-**Syed Murtuza Hussaini**
-Aspiring Data Analyst
-Email: hussainiadnan185@gmail.com
+##  **Author and Contact**
 
-GitHub: https://github.com/hussainiadnan185-ux
+**Syed Murtuza Hussaini**  
+Aspiring Data Analyst  
+📧 Email: hussainiadnan185@gmail.com  
+🔗 GitHub: https://github.com/hussainiadnan185-ux
+
+
