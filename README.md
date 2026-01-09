@@ -145,7 +145,7 @@ This project shows how Zepto uses discounts to drive volume, protects margins on
 
 ---
 
-##🚀 **Future Work**
+## 🚀 **Future Work**
 1. Add real order and sales data.
 2. Build a Power BI dashboard.
 3. Perform supplier and margin analysis.
@@ -154,8 +154,9 @@ This project shows how Zepto uses discounts to drive volume, protects margins on
 
 ## **Author and Contact**
 
-Syed Murtuza Hussaini
+**Syed Murtuza Hussaini**
 Aspiring Data Analyst
 Email: hussainiadnan185@gmail.com
 
 GitHub: https://github.com/hussainiadnan185-ux
+
