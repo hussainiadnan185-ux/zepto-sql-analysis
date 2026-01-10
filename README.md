@@ -1,4 +1,4 @@
-# 🛒 **Zepto E-commerce SQL Analysis**
+# 🛍️ **Zepto Retail Inventory & Pricing Analysis**
 
 > Analysis of Zepto’s product catalog using SQL to understand pricing, discounts, and inventory behavior.
 
@@ -133,5 +133,6 @@ This project shows how Zepto uses discounts to drive volume, protects margins on
 Aspiring Data Analyst  
 📧 Email: hussainiadnan185@gmail.com  
 🔗 GitHub: https://github.com/hussainiadnan185-ux
+
 
 
