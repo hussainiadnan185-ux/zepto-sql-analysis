@@ -131,7 +131,8 @@ This project shows how Zepto uses discounts to drive volume, protects margins on
 **Syed Murtuza Hussaini**  
 Aspiring Data Analyst  
 📧 Email: hussainiadnan185@gmail.com  
-🔗 GitHub: https://github.com/hussainiadnan185-ux
+🔗 Linkedin: https://linkedin.com/in/syed-murtuza-hussaini-r304
+
 
 
 
